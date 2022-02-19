@@ -8,11 +8,14 @@ body {
   /* 2. اجعل الصورة تظهر مرة واحد   */
   /* hint : repeat proparty */
   /* اكتب  الكود هنا 👇🏽 */
-
+  background-color: blueviolet;
+  background-size: 50px;
+  background-repeat: no-repeat;
   /* المطلوب الخامس هنا  */
   /* يظهر بمتنصف الصفحة  movie cards  اجعل ال   */
   /* hint:    flex طول قبل استخدام خواص ال body اعط ل  */
   /* اكتب  الكود هنا 👇🏽 */
+
 }
 
 .myimage {
@@ -21,6 +24,10 @@ body {
   /* 2, border radius */
   /* 3. add box shadow */
   /* اكتب  الكود هنا 👇🏽 */
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 blue;
+
 }
 
 .button {
@@ -30,6 +37,12 @@ body {
            3.remove border
            4. change  background color */
   /* اكتب  الكود هنا 👇🏽 */
+  display: block;
+  height: 10px;
+  width: 200px;
+  border: none;
+  background-color: red;
+
 }
 
 .container {
@@ -42,4 +55,10 @@ body {
          6.اجعل العناصر تظهر بمنتص البطاقة
          7.  border radius */
   /* اكتب  الكود هنا 👇🏽 */
+  background-color:brown ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
 }
